@@ -1,0 +1,30 @@
+
+.header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    background-image: url(../../../public/assets/imgs/background.jpg);
+    height: 31.25rem;
+    background-size: cover;
+    background-position: center;
+    img{
+        width: 100%;
+    }
+   .header__name{
+    padding-bottom: 1.25rem;
+    text-shadow:3px 3px 3px rgb(36, 111, 158);
+    color: #fff;
+    h1{
+        padding-bottom: 20px;
+        font-size: 3.875rem;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+   }  
+       a{
+           padding: 15px;
+           background-color: rgb(30, 30, 75);
+    } 
+}

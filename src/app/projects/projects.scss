@@ -1,0 +1,16 @@
+.projects__title{
+    h2{
+        text-shadow:3px 3px 3px rgb(36, 111, 158);
+        color: navy;
+    }
+}
+.projects__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    .card-body{
+        a{
+            background-color: rgb(30, 30, 75);
+        }
+    }
+}

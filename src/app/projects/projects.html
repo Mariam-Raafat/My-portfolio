@@ -1,0 +1,15 @@
+<section class="projects-section pt-5 pb-5">
+<div class="container">
+    <div class="projects__title">
+        <h2>Portfolio</h2>
+    </div>
+<div class="projects__wrapper pt-5 pb-5">
+      <div *ngFor="let project of cards" [ngClass]="project.color" class="card text-center"> 
+      <div class="card-body">
+        <h5 class="card-title pb-3">{{project.title}}</h5>     
+        <a [href]="project.link" target="_blank" class="btn btn-dark mb-3">{{project.btn}}</a>
+      </div>    
+    </div>
+</div>
+</div>
+</section>

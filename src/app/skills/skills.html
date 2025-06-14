@@ -1,0 +1,36 @@
+<section class="skills-section pt-5 pb-5">
+    <div class="container">
+        <div class="skills-title__wrapper d-flex flex-column text-center pt-5 pb-5">
+            <h2>Skills</h2>
+            <p class="mx-auto text-center" style="max-width: 60%;">I have hands-on experience with modern front-end
+                technologies like HTML, CSS, JavaScript, and responsive
+                design. I'm constantly learning and improving to build clean, user-friendly interfaces that work across
+                different devices and browsers.</p>
+        </div>
+        <div class="skills__content d-flex justify-content-between pt-5 align-items-center">
+            <div class="focus col-4">
+                <h3>My Focus</h3>
+                <hr class="w-50 border-2">
+                <ul class="list-group gap-3">
+                    <li *ngFor="let item of focusItems" class="list-group-item no-bg border-0">{{item}}</li>
+                </ul>
+            </div>
+            <div class="skills__list col-6">
+                <div *ngFor="let skill of skillProgress" class="mb-4">
+                    <label class="form-label fw-bold">{{skill.name}}</label>
+                    <div class="progress">
+                        <div class="progress-bar" [ngClass]="skill.color" [style.width.%]="skill.value">{{skill.value}}%</div>
+                    </div>
+                </div>
+
+                
+
+              
+
+                
+
+            </div>
+        </div>
+    </div>
+
+</section>
