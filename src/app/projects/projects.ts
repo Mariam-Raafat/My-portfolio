@@ -16,10 +16,10 @@ cards:{title:string,btn:string,color:string,link:string}[] = [
      link:"https://mariam-raafat.github.io/Todo-App/"
   },
   {
-    title:"Responsive Layout",
+    title:"Landing-page",
     btn:"Please take a moment to review",
      color:"bg-info",
-     link:"https://mariam-raafat.github.io/responsive-layout/"
+     link:"https://mariam-raafat.github.io/Landing-Page/"
   },
   {
     title:"Task Manager JQuery",
